@@ -1,0 +1,46 @@
+PS C:\Users\MWANGIMM\Desktop\Uda\cloud-developer\course-02\project\image-filter-starter-code> eb create
+Enter Environment Name
+(default is image-filter-starter-code-dev): 
+Enter DNS CNAME prefix
+(default is image-filter-starter-code-dev22): 
+
+Select a load balancer type
+1) classic
+2) application
+3) network
+(default is 2): 2
+
+
+Would you like to enable Spot Fleet requests for this environment? (y/N): n
+Uploading image-filter-starter-code/app-220615_130558408035.zip to S3. This may take a while.
+Upload Complete.
+Environment details for: image-filter-starter-code-dev
+  Application name: image-filter-starter-code
+  Region: us-east-1
+  Deployed Version: app-220615_130558408035
+  Environment ID: e-k2ydiad8mb
+  Platform: arn:aws:elasticbeanstalk:us-east-1::platform/Node.js 16 running on 64bit Amazon Linux 2/5.5.3
+  Tier: WebServer-Standard-1.0
+  CNAME: image-filter-starter-code-dev22.us-east-1.elasticbeanstalk.com
+  Updated: 2022-06-15 10:08:42.730000+00:00
+Printing Status:
+2022-06-15 10:08:41    INFO    createEnvironment is starting.
+2022-06-15 10:08:42    INFO    Using elasticbeanstalk-us-east-1-684363022165 as Amazon S3 storage bucket for environment data.      
+2022-06-15 10:09:09    INFO    Created target group named: arn:aws:elasticloadbalancing:us-east-1:684363022165:targetgroup/awseb-AWSEB-1I99GFMPCNJYV/1355415fc3e779a5
+2022-06-15 10:09:09    INFO    Created security group named: sg-05c0c6fed76d31397
+2022-06-15 10:09:25    INFO    Created security group named: awseb-e-k2ydiad8mb-stack-AWSEBSecurityGroup-1JWFAQVBCO48L
+2022-06-15 10:09:25    INFO    Created Auto Scaling launch configuration named: awseb-e-k2ydiad8mb-stack-AWSEBAutoScalingLaunchConfiguration-HrYpx8eTJ7DI
+2022-06-15 10:10:42    INFO    Created Auto Scaling group named: awseb-e-k2ydiad8mb-stack-AWSEBAutoScalingGroup-1T6D6E12OO064       
+2022-06-15 10:10:42    INFO    Waiting for EC2 instances to launch. This may take a few minutes.
+2022-06-15 10:10:42    INFO    Created Auto Scaling group policy named: arn:aws:autoscaling:us-east-1:684363022165:scalingPolicy:d077c360-5e3e-4705-a15f-b06f343e6d03:autoScalingGroupName/awseb-e-k2ydiad8mb-stack-AWSEBAutoScalingGroup-1T6D6E12OO064:policyName/awseb-e-k2ydiad8mb-stack-AWSEBAutoScalingScaleDownPolicy-EEQFKTHM2SGG
+2022-06-15 10:10:42    INFO    Created Auto Scaling group policy named: arn:aws:autoscaling:us-east-1:684363022165:scalingPolicy:b6dc55bb-059d-49df-8ed5-2882d2cadb65:autoScalingGroupName/awseb-e-k2ydiad8mb-stack-AWSEBAutoScalingGroup-1T6D6E12OO064:policyName/awseb-e-k2ydiad8mb-stack-AWSEBAutoScalingScaleUpPolicy-DM2VH9QCR6F2
+2022-06-15 10:10:42    INFO    Created CloudWatch alarm named: awseb-e-k2ydiad8mb-stack-AWSEBCloudwatchAlarmLow-A0KPJCGCPN4I        
+2022-06-15 10:10:42    INFO    Created CloudWatch alarm named: awseb-e-k2ydiad8mb-stack-AWSEBCloudwatchAlarmHigh-EMEJU2D1X7PC
+2022-06-15 10:11:13    INFO    Created load balancer named: arn:aws:elasticloadbalancing:us-east-1:684363022165:loadbalancer/app/awseb-AWSEB-RNAXHNHZJBUJ/562dfe516d8b06d1
+2022-06-15 10:11:31    INFO    Created Load Balancer listener named: arn:aws:elasticloadbalancing:us-east-1:684363022165:listener/app/awseb-AWSEB-RNAXHNHZJBUJ/562dfe516d8b06d1/fbdf992f697887c1
+2022-06-15 10:11:36    INFO    Instance deployment: You didn't specify a Node.js version in the 'package.json' file in your source bundle. The deployment didn't install a specific Node.js version.
+2022-06-15 10:11:55    INFO    Instance deployment completed successfully.
+2022-06-15 10:12:08    INFO    Application available at image-filter-starter-code-dev22.us-east-1.elasticbeanstalk.com.
+2022-06-15 10:12:09    INFO    Successfully launched environment: image-filter-starter-code-dev
+
+PS C:\Users\MWANGIMM\Desktop\Uda\cloud-developer\course-02\project\image-filter-starter-code> 
